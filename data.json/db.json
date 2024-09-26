@@ -1,0 +1,52 @@
+{
+  "User": [
+    {
+      "name": "Sandhyarani Bhalke ",
+      "email": "bhalkesandhyarani@gmail.com",
+      "pass": "sb82653",
+      "skill": "MERN Stack",
+      "skill1": "BCS",
+      "id": 1
+    },
+    {
+      "name": "Parth",
+      "email": "parthbhalke@gmail.com",
+      "pass": "pb625",
+      "skill": "ReactJS",
+      "skill1": "BCA",
+      "id": 2
+    },
+    {
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "pass": "n52376",
+      "skill": "Modern JS",
+      "skill1": "BSC",
+      "id": 3
+    },
+    {
+      "name": "vaishnavi",
+      "email": "vaishnavib@gmail.com",
+      "pass": "v2662",
+      "skill": "MERN Stack",
+      "skill1": "BCS",
+      "id": 4
+    },
+    {
+      "name": "kavya ",
+      "email": "kmpaithankar@gmail.com",
+      "pass": "1234",
+      "skill": "Modern JS",
+      "skill1": "BCA",
+      "id": 5
+    },
+    {
+      "name": "Shivani shinde",
+      "email": "ssshinde@gmail.com",
+      "pass": "22222ss",
+      "skill": "Node JS",
+      "skill1": "Other",
+      "id": 6
+    }
+  ]
+}

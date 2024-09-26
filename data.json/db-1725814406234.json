@@ -1,0 +1,90 @@
+{
+  "User": [
+    {
+      "name": "Rani",
+      "email": "rb@gmail.com",
+      "pass": "8787687",
+      "skill": "Modern JS",
+      "id": 5
+    },
+    {
+      "name": "Parth",
+      "email": "p@gmail.com",
+      "pass": "749878",
+      "skill": "AWS Solution Arch",
+      "id": 7
+    },
+    {
+      "name": "Supriya@gmail.com",
+      "email": "s@gmail.com",
+      "pass": "8676",
+      "skill": "AWS Solution Arch",
+      "skill1": "BCS",
+      "id": 9
+    },
+    {
+      "name": "etetrtr",
+      "email": "Neha@gmail.com",
+      "pass": "983787",
+      "skill": "AWS Solution Arch",
+      "skill1": "ReactJS",
+      "id": 13
+    },
+    {
+      "name": "sgfdhg",
+      "email": "hhhhhg@gmail.com",
+      "pass": "768ygh",
+      "skill": "Modern JS",
+      "skill1": "BCA",
+      "id": 15
+    },
+    {
+      "name": "Sagars",
+      "email": "sa@gmail.com",
+      "pass": "89687t7",
+      "skill": "Modern JS",
+      "skill1": "Node JS",
+      "id": 16
+    },
+    {
+      "name": "Deepak",
+      "email": "Deepak@gmail.com",
+      "pass": "53453448",
+      "skill": "Node JS",
+      "skill1": "ReactJS",
+      "id": 17
+    },
+    {
+      "name": "DS",
+      "email": "DS@gmail.com",
+      "pass": "8784367",
+      "skill": "Node JS",
+      "skill1": "Node JS",
+      "id": 18
+    },
+    {
+      "name": "divya",
+      "email": "d@gmail.com",
+      "pass": "6765543",
+      "skill": "MERN Stack",
+      "skill1": "BCS",
+      "id": 19
+    },
+    {
+      "name": "Sandhyarani ",
+      "email": "sb@gmail.com",
+      "pass": "8236526535",
+      "skill": "MERN Stack",
+      "skill1": "BCS",
+      "id": 20
+    },
+    {
+      "name": "rani",
+      "email": "bhalkesandhyarani@gmail.com",
+      "pass": "233333",
+      "skill": "Node JS",
+      "skill1": "BCS",
+      "id": 21
+    }
+  ]
+}

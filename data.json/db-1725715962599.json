@@ -1,0 +1,119 @@
+{
+  "User": [
+    {
+      "name": "Rani",
+      "email": "r@gmail.com",
+      "pass": "8787687",
+      "skill": "Modern JS",
+      "id": 5
+    },
+    {
+      "name": "Sandhya",
+      "email": "s@gmail.com",
+      "pass": "98787675",
+      "skill": "MERN Stack",
+      "id": 6
+    },
+    {
+      "name": "Parth",
+      "email": "p@gmail.com",
+      "pass": "749878",
+      "skill": "AWS Solution Arch",
+      "id": 7
+    },
+    {
+      "name": "Parth",
+      "email": "p@gmail.com",
+      "pass": "749878",
+      "skill": "AWS Solution Arch",
+      "id": 8
+    },
+    {
+      "name": "Supriya@gmail.com",
+      "email": "s@gmail.com",
+      "pass": "8676",
+      "skill": "AWS Solution Arch",
+      "id": 9
+    },
+    {
+      "name": "Neha",
+      "email": "Neha@gmail.com",
+      "pass": "983787",
+      "skill": "AWS Solution Arch",
+      "skill1": "ReactJS",
+      "id": 10
+    },
+    {
+      "name": "Neha",
+      "email": "Neha@gmail.com",
+      "pass": "983787",
+      "skill": "AWS Solution Arch",
+      "skill1": "ReactJS",
+      "id": 11
+    },
+    {
+      "name": "gfgh",
+      "email": "Neha@gmail.com",
+      "pass": "983787",
+      "skill": "MERN Stack",
+      "skill1": "ReactJS",
+      "id": 12
+    },
+    {
+      "name": "etetrtr",
+      "email": "Neha@gmail.com",
+      "pass": "983787",
+      "skill": "AWS Solution Arch",
+      "skill1": "ReactJS",
+      "id": 13
+    },
+    {
+      "name": "ererer",
+      "email": "Neha@gmail.com",
+      "pass": "983787",
+      "skill": "AWS Solution Arch",
+      "skill1": "ReactJS",
+      "id": 14
+    },
+    {
+      "name": "sgfdhg",
+      "email": "hhhhhg@gmail.com",
+      "pass": "768ygh",
+      "skill": "Modern JS",
+      "skill1": "Modern JS",
+      "id": 15
+    },
+    {
+      "name": "Sagars",
+      "email": "sa@gmail.com",
+      "pass": "89687t7",
+      "skill": "Modern JS",
+      "skill1": "Node JS",
+      "id": 16
+    },
+    {
+      "name": "Deepak",
+      "email": "Deepak@gmail.com",
+      "pass": "53453448",
+      "skill": "Node JS",
+      "skill1": "ReactJS",
+      "id": 17
+    },
+    {
+      "name": "DS",
+      "email": "DS@gmail.com",
+      "pass": "8784367",
+      "skill": "Node JS",
+      "skill1": "Node JS",
+      "id": 18
+    },
+    {
+      "name": "756",
+      "email": "d@gmail.com",
+      "pass": "6765543",
+      "skill": "MERN Stack",
+      "skill1": "Modern JS",
+      "id": 19
+    }
+  ]
+}

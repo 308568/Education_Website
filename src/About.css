@@ -1,0 +1,162 @@
+/* .ab1{
+    height: 50vh;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+
+.ab11{
+    height: 50vh;
+    width: 50%;
+    float: left;
+}
+
+.ab12{
+    height: 50vh;
+    width: 50%;
+    float: left;
+} */
+
+.ab1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    width: 100%;
+    margin-top: 5%;
+    height: 50vh;
+}
+
+/* Left-side image */
+.ab11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* Right-side content */
+.ab12 {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .ab1 {
+        grid-template-columns: 1fr; /* Single column layout for mobile */
+        height: auto;
+    }
+
+    .ab11,
+    .ab12 {
+        width: 100%;
+        height: auto; /* Adjust the height to fit content on mobile */
+    }
+
+    .ab11 img {
+        width: 90%; /* Reduce image width on mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+
+    /* Add this in your About.css */
+
+/* For screens larger than 768px (tablet and above) */
+@media (min-width: 768px) {
+    .info1, .info2, .info3 {
+      width: 30%;
+      float: left;
+      margin-left: 5%;
+    }
+  
+    .Team > div {
+      width: 20%;
+      float: left;
+      margin-left: 5%;
+    }
+  }
+  
+  
+  
+}
+
+
+
+
+
+/* General Styles */
+.c1, .bii, .Team {
+    width: 100%;
+    float: left;
+  }
+  
+  /* Style for info1, info2, info3 on large screens */
+  .info1, .info2, .info3 {
+    width: 30%;
+    float: left;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .im1, .im12, .im13 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+ /* General Styles */
+.Team {
+    background-color: aliceblue;
+    margin-top: 5%;
+    width: 100%;
+    padding: 0 10px; /* Added padding for mobile responsiveness */
+  }
+  
+  .Team div {
+    margin-top: 3%;
+    width: 100%; /* Ensures each team member block takes full width */
+    box-sizing: border-box;
+    padding: 0 10px; /* Added padding for better spacing on mobile */
+  }
+  
+  .Team img {
+    height: 40vh;
+    width: 100%;
+    border-style: groove;
+    border-radius: 50%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Team {
+      padding: 0; /* Remove padding on smaller screens */
+    }
+  
+    .Team div {
+      width: 100%; /* Each member takes full width */
+      margin: 0 auto; /* Center-aligns the content */
+      text-align: center; /* Centers text content */
+    }
+  
+    .Team img {
+      height: 30vh; /* Adjust height for smaller screens */
+    }
+  
+    /* Stack images vertically */
+    .Team div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px; /* Adds space between items */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Team img {
+      height: 25vh; /* Further adjust image height on very small screens */
+    }
+  }
+  

@@ -1,0 +1,25 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.c1{
+    /* position: sticky; */
+    height: 30vh;
+    width: 100%;
+    background-image: url(../public/assests/c2.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    float: left;
+    margin-top: 2%;
+}
+
+.ci{
+    height: 30vh;
+    width: 100%;
+    background-color: hsla(237, 90%, 29%, 0.5);
+    float: left;
+
+}

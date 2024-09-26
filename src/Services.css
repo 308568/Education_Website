@@ -1,0 +1,37 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+  /* Mobile responsiveness using grid */
+  @media (max-width: 768px) {
+    .content-section {
+      grid-template-columns: 1fr; /* Single column for mobile */
+      grid-auto-rows: auto;
+      height: auto;
+    }
+  
+    .image {
+      width: 90%;
+      height: auto;
+      margin-top: 5%;
+    }
+  
+    .info-section {
+      padding: 5%;
+    }
+  
+    h5 {
+      font-size: 1rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+      margin-right: 0;
+    }
+  
+    .divider {
+      width: 60%;
+    }
+  }
+  
