@@ -19,7 +19,7 @@ const Testomonials = () => {
 
       </div>
       <div className="carousel-item" data-bs-interval="2000">
-        <img src="assests/t1.jpeg" className="d-block w-10" style={{height:'30vh', float:'left',borderRadius:'50%'}}  />
+        <img src="assests/t1.jpeg" className="d-block w-10" style={{height:'30vh', float:'left',borderRadius:'50%'}} alt="..." />
         <h3 style={{color:'black', marginLeft:'30%'}} >Sara Willson</h3>
         <p style={{color:'black', marginLeft:'30%'}} >developer</p>
         <h2 style={{color:'goldenrod ',marginLeft:'30%'}}>★★★★★</h2>
