@@ -173,7 +173,7 @@ const Home = () => {
             marginTop: "10%",
           }}
         >
-          <h1 className="head1" style={{ marginLeft: "40%" }}>
+          <h1 className="head1" style={{ marginLeft: "10%" }}>
             Popular Courses
           </h1>
           <div className="ul1"></div>

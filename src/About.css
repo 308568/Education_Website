@@ -1,86 +1,4 @@
-/* .ab1{
-    height: 50vh;
-    width: 100%;
-    float: left;
-    margin-top: 5%;
-}
 
-.ab11{
-    height: 50vh;
-    width: 50%;
-    float: left;
-}
-
-.ab12{
-    height: 50vh;
-    width: 50%;
-    float: left;
-} */
-
-.ab1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    width: 100%;
-    margin-top: 5%;
-    height: 50vh;
-}
-
-/* Left-side image */
-.ab11 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-}
-
-/* Right-side content */
-.ab12 {
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50vh;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    .ab1 {
-        grid-template-columns: 1fr; /* Single column layout for mobile */
-        height: auto;
-    }
-
-    .ab11,
-    .ab12 {
-        width: 100%;
-        height: auto; /* Adjust the height to fit content on mobile */
-    }
-
-    .ab11 img {
-        width: 90%; /* Reduce image width on mobile */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-
-    /* Add this in your About.css */
-
-/* For screens larger than 768px (tablet and above) */
-@media (min-width: 768px) {
-    .info1, .info2, .info3 {
-      width: 30%;
-      float: left;
-      margin-left: 5%;
-    }
-  
-    .Team > div {
-      width: 20%;
-      float: left;
-      margin-left: 5%;
-    }
-  }
-  
-  
-  
-}
 
 
 
@@ -160,3 +78,102 @@
     }
   }
   
+  /* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the About component */
+.c1 {
+  text-align: center;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section > div {
+  margin: 0;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .about-section {
+    flex-direction: row;
+  }
+
+  .about-section > div {
+    margin: 2%;
+  }
+
+  .ab1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ab12, .ab11 {
+    width: 50%; /* Adjust width for larger screens */
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-section {
+    flex-direction: column; /* Stack elements on small screens */
+  }
+
+  .about-section > div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .ab1 {
+    flex-direction: column; /* Stack the images and texts on small screens */
+  }
+
+  .ab12, .ab11 {
+    width: 100%; /* Make images full-width */
+  }
+
+  .info1, .info2, .info3 {
+    width: 100%; /* Make teacher info full-width */
+    margin: 0;
+  }
+
+  .Team {
+    display: flex;
+    flex-wrap: wrap; /* Wrap team members to fit on smaller screens */
+    justify-content: center;
+  }
+
+  .Team > div {
+    width: 45%; /* Adjust width of team member cards */
+    margin: 2.5%; /* Add some margin for spacing */
+    margin-bottom: -35%;
+    height: auto;
+  }
+}
+
+/* Additional styles for images */
+.im1, .im12, .im13 {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional heading styles for responsiveness */
+.head1 {
+  text-align: center;
+}
+
+/* Add some padding to the footer */
+footer {
+  padding: 20px 0;
+  margin-top: 1000%;
+}
