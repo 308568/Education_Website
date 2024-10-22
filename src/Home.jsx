@@ -13,8 +13,15 @@ const Home = () => {
   return (
     <>
       <div style={{ height: "100vh", float: "left" }}>
-        <div className="bi">
-          {/* <img src="assests/ed1.jpg" alt="" style={{height:'100vh',width:'100%'}} /> */}
+  
+      <div
+     className="bi"
+ 
+>
+  {/* Content goes here */}
+{/* </div> */}
+
+   
           <div className="b1">
             <div
               id="carouselExampleAutoplaying"
@@ -27,16 +34,54 @@ const Home = () => {
                   style={{ backgroundImage: "assests/ed2.jpg" }}
                 >
                   {/* <img src="assests/ed2.jpg" class="d-block w-100" alt="..."/> */}
-                  <h1
-                    style={{
-                      fontSize: "100px",
-                      marginTop: "20%",
-                      marginLeft: "30%",
-                      color: "white",
-                    }}
-                  >
-                    YOU CAN LEARN ANYTHING
-                  </h1>
+       
+
+                  <div
+  style={{
+    position: "relative",  // Ensures child elements are positioned relative to this container
+    height: "100vh",
+    width: "100vw",
+  }}
+>
+  {/* Image */}
+  <img
+    src="assests/ed1.jpg"
+    alt=""
+    style={{
+      height: "100%",
+      width: "100%",
+      objectFit: "cover", // Ensures the image covers the area while maintaining aspect ratio
+    }}
+  />
+
+<div
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundColor: "hsla(0, 0%, 0%, 0.5)",  // Full semi-transparent overlay
+    }}
+  />
+
+  {/* Text Overlay */}
+  <h1
+    style={{
+      position: "absolute",  // Allows the text to overlap the image
+      top: "50%",            // Vertically centers the text
+      left: "50%",           // Horizontally centers the text
+      transform: "translate(-50%, -50%)",  // Adjusts position to center perfectly
+      fontSize: "100px",
+      color: "white",
+      padding: "20px",        // Optional padding around the text
+    }}
+  >
+    YOU CAN LEARN ANYTHING
+  </h1>
+</div>
+
+
                 </div>
                 <div className="carousel-item">
                   <img
@@ -246,7 +291,17 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bii">
+        <div className="bii"
+         style={{
+          height: "60vh",                         // Height set to 60% of the viewport height
+          width: "100%",                          // Full width
+          backgroundImage: "url('/assests/ed1.jpg')", // Set background image
+          backgroundSize: "100% 100%",           // Stretch background image to cover the entire area
+          backgroundPosition: "center center",    // Center the background image
+          float: "left",                          // Float to the left
+          marginTop: "10%",                       // Margin at the top
+        }}
+        >
           <div className="b9">
             <div className="info1" data-aos="zoom-in">
               <img src="assests/sch11.png" className="im1" alt="" />

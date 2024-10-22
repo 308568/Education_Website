@@ -3,19 +3,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.bi{
-    /* position: sticky; */
-    height: 100vh;
-    width: 100%;
-    background-image: url('../public/assests/ed1.jpg '  );
-    /* background-image: url('/assests/ed1.jpg'); */
-
-
-    background-size: 100% 100%; 
-    background-position: center center;
-    /* background-attachment: fixed; */
-    float: left;
-}
 
 .b1{
     height: 100vh;
@@ -92,19 +79,6 @@
 }
 
 
-.bii{
-    /* position: sticky; */
-    height: 60vh;
-    width: 100%;
-    background-image: url('../public/assests/ed1.jpg');
-
-
-    background-size: 100% 100%;
-    background-position: center center;
-    /* background-attachment: fixed; */
-    float: left;
-    margin-top: 10%;
-}
 
 .b9{
     height: 60vh;

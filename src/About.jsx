@@ -415,7 +415,7 @@ const About = () => {
         </div>
       </div>
 
-      <h1 className="head1" style={{ marginLeft: '40%' }}>Our Teachers</h1>
+      <h1 className="head1" style={{ marginLeft: '10%' }}>Our Teachers</h1>
       <div className="ul1"></div>
 
       <div className="Team" style={{ backgroundColor: 'aliceblue', height: '150vh', marginTop: '5%', width: '100%' }}>

@@ -43,8 +43,9 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "gh-pages": "^6.1.1",
-    "postcss": "^8.4.24",
-    "postcss-svgo": "^5.0.1"
+    "postcss": "^8.4.47",
+    "postcss-svgo": "^7.0.1"
   }
 }
