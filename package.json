@@ -2,21 +2,6 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "aos": "^2.3.4",
-    "axios": "^1.7.7",
-    "bootstrap": "^5.3.3",
-    "font-awesome": "^4.7.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.1",
-    "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,11 +26,14 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "css-minimizer-webpack-plugin": "^7.0.0",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.47",
-    "postcss-svgo": "^7.0.1"
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4"
   }
 }
